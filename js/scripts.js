@@ -25,17 +25,20 @@ $(document).ready(function() {
 function match(total) {
   if (total < 8) {
   $("#cssShow").show();
-
+  $("#javaShow").hide()
+  $("#csharpShow").hide()
   }
 
   else if (total > 7 && total < 11) {
   $("#javaShow").show();
-
+  $("#cssShow").hide();
+  $("#csharpShow").hide()
   }
 
   else if (total > 10) {
   $("#csharpShow").show();
-
+  $("#javaShow").hide();
+  $("#cssShow").hide();
   };
 
 };

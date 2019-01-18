@@ -27,3 +27,12 @@
 body {
   background-color: #EBF8FB
 }
+
+.resultmessage {
+  text-align: center;
+}
+
+.resultimage {
+  height: 300px;
+  width: 250px;
+}
