@@ -13,8 +13,8 @@ user and by utilizing JavaScript and jQuery, creates a function to determine the
 
 ## Setup/Installation Requirements
 
-* _Download or clone from [github] (https://github.com/samstoia/week2-project)_
-* _Open project folder in desktop_
+* _Download or clone from github. (https://github.com/samstoia/week2-project)_
+* _Open week2-project folder_
 * _Open index.html in browser_
 
 ## Known Bugs

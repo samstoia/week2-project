@@ -62,3 +62,7 @@ body {
 .panel-body {
   background-color: #ebfbf6;
 }
+
+#submitButton {
+  margin-bottom: 10px;
+}
