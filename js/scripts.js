@@ -39,6 +39,9 @@ function match(total) {
   $("#csharpShow").show();
   $("#javaShow").hide();
   $("#cssShow").hide();
-  };
+  }
 
+  else if (total != 6, 7, 8, 9, 10, 11, 12) [
+    alert("Please Make Sure All Questions are Answered!")
+  ]
 };
