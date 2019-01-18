@@ -36,3 +36,17 @@ body {
   height: 300px;
   width: 250px;
 }
+
+.panelformat{
+  text-align: center;
+}
+
+.panelimage {
+  height: 200px;
+  width: 180px;
+}
+
+#javapanelimage {
+  height: 200px;
+  width: 130px;
+}
