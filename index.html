@@ -8,92 +8,122 @@
     <title>Choose Your Path</title>
   </head>
   <body>
-    <h1>Which Language is Right for You?</h1>
-
+    <div class="jumbotron">
+      <img src="img/csharp.png" alt="a C# logo">
+      <img src="img/css.png" alt="a CSS logo">
+      <img id="java" src="img/java.png" alt="a Java logo">
+      <h1 class="display-4">Which Language is Right for You?</h1>
+      <p class="lead">There are so many options for people who want to learn how to code.
+      They range from online tutortials, intensive bootcamps, to even earning a computer science degree.
+      As you consider which environment may be best, it may also be right to ask yourself which language
+      you'd like to learn.</p>
+      <hr class="my-4">
+      <p class="lead">Below you will be able to take a quiz that will help narrow down which language
+      might suit you best. While there are tons of languages out there, this quiz will point you towards
+      whether you should study CSS/Design, Java/Android, or C#/.NET</p>
+      <hr class="my-4">
+      <p class="lead">If you'd like to learn more about these languages before you take the quiz, or read
+      up on them after you learn your result, click the link below:</p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="about.html" role="button">Learn more</a>
+      </p>
+    </div>
     <div class="container">
       <form id="trackQuestions">
-        <div class="radio">
-          <p>Which working environment sounds better to you?</p>
-          <label>
-            <input type="radio" name="environment" value="1">
-            Small startup
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="environment" value="2">
-            Large business
-          </label>
-        </div>
-
-        <div class="radio">
-          <p>Which word describes you better?</p>
-          <label>
-            <input type="radio" name="personality" value="1">
-            Artistic
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="personality" value="2">
-            Scientific
-          </label>
+        <div class="border">
+          <div class="radio">
+            <p>Which working environment sounds better to you?</p>
+            <label>
+              <input type="radio" name="environment" value="1">
+              Small startup
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="environment" value="2">
+              Large business
+            </label>
+          </div>
         </div>
 
-        <div class="radio">
-          <p>Which would you rather learn how to do?</p>
-          <label>
-            <input type="radio" name="learning" value="1">
-            Make webpages look amazing
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="learning" value="2">
-            Create business applications
-          </label>
-        </div>
-
-        <div class="radio">
-          <p>How important is it that the language you learn is in high demand?</p>
-          <label>
-            <input type="radio" name="language" value="1">
-            Very important</input>
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="language" value="2">
-            Somewhat important
-          </label>
+        <div class="border">
+          <div class="radio">
+            <p>Which word describes you better?</p>
+            <label>
+              <input type="radio" name="personality" value="1">
+              Artistic
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="personality" value="2">
+              Scientific
+            </label>
+          </div>
         </div>
 
-        <div class="radio">
-          <p>What is your main reason you want to learn how to program?</p>
-          <label>
-            <input type="radio" name="goal" value="1">
-            Learn new skills
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="goal" value="2">
-            Start a new career
-          </label>
+        <div class="border">
+          <div class="radio">
+            <p>Which would you rather learn how to do?</p>
+            <label>
+              <input type="radio" name="learning" value="1">
+              Make webpages look amazing
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="learning" value="2">
+              Create business applications
+            </label>
+          </div>
         </div>
 
-        <div class="radio">
-          <p>Are you able to commit to a full-time (8 hours a day) schedule? </p>
-          <label>
-            <input type="radio" name="schedule" value="1">
-            No
-          </label>
+        <div class="border">
+          <div class="radio">
+            <p>How important is it that the language you learn is in high demand?</p>
+            <label>
+              <input type="radio" name="language" value="1">
+              Very important</input>
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="language" value="2">
+              Somewhat important
+            </label>
+          </div>
+          </div>
+
+        <div class="border">
+          <div class="radio">
+            <p>What is your main reason you want to learn how to program?</p>
+            <label>
+              <input type="radio" name="goal" value="1">
+              Learn new skills
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="goal" value="2">
+              Start a new career
+            </label>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="schedule" value="2">
-            Yes
-          </label>
+
+        <div class="border">
+          <div class="radio">
+            <p>Are you able to commit to a full-time (8 hours a day) schedule? </p>
+            <label>
+              <input type="radio" name="schedule" value="1">
+              No
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="schedule" value="2">
+              Yes
+            </label>
+          </div>
         </div>
 
         <button type="submit" class="btn btn-link">Submit</button>
@@ -101,21 +131,21 @@
       </form>
       </div>
 
-      <div id="css">
+      <div id="cssShow">
         <h1>You should study CSS/Design!<h1>
         <img src="" alt="a CSS logo">
 
       </div>
 
-      <div id="java">
+      <div id="javaShow">
         <h1>You should study Java/Android!<h1>
         <img src="" alt="a java logo">
 
       </div>
 
-      <div id="java">
+      <div id="csharpShow">
         <h1>You should study C#/.NET!<h1>
-        <img src="" alt="a java logo">
+        <img src="" alt="a csharp logo">
 
       </div>
 

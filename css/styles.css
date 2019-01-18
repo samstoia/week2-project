@@ -1,0 +1,29 @@
+.jumbotron {
+  text-align: center;
+}
+
+.jumbotron img {
+  height: 200px;
+  width: 170px;
+}
+
+#java {
+  height: 160px;
+  width: 120px;
+}
+
+.border {
+  border-style: solid;
+  border-color: #7c8e94;
+  border-width: medium;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#javaShow, #cssShow, #csharpShow {
+  display: none;
+}
+
+body {
+  background-color: #EBF8FB
+}
