@@ -8,7 +8,8 @@
 
 _This is a webpage that asks people some basic questions about themselves in order to
 find out some more about their personality. Based on their responses, the quiz will return
-a programming language that may suit them._
+a programming language that may suit them. The webpage uses radar buttons to get answers from
+user and by utilizing JavaScript and jQuery, creates a function to determine the ideal language_
 
 ## Setup/Installation Requirements
 
