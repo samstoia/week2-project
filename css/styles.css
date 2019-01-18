@@ -50,3 +50,15 @@ body {
   height: 200px;
   width: 130px;
 }
+
+#backbutton {
+  margin-bottom: 20px;
+}
+
+.row {
+  background-color: #ebf0fb;
+}
+
+.panel-body {
+  background-color: #ebfbf6;
+}
