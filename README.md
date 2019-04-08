@@ -1,6 +1,6 @@
 # Ideal Programming Language Quiz
 
-#### This is a webpage, made for my second solo weekly project at Epicodus.
+A webpage made for my second solo weekly project at Epicodus.
 
 #### By _Sam Stoia_
 
